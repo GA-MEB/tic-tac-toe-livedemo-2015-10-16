@@ -1,0 +1,53 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: chocolate;
+  text-align: center;
+}
+
+section {
+  clear: both;
+}
+
+.board {
+  margin-left: 27%;
+}
+
+.board > div {
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+  margin: 10px;
+  float:left;
+}
+
+.board > div:nth-of-type(4), .board > div:nth-of-type(7) {
+  clear: left;
+}
+
+.board > div > span {
+  font-size: 70px;
+  font-family: georgia;
+  vertical-align: middle;
+}
+
+.messages {
+  clear: both;
+}
+
+.modal {
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  background: rgba(0,0,0,0.4);
+  padding-top: 15%;
+}
+
+.content-box {
+  background-color: antiquewhite;
+  width: 30%;
+  height: 30%;
+  padding: 5%;
+}

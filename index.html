@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="layout.css">
+  <!-- <link rel="stylesheet" href="style.css">-->
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="api.js"></script>
+  <script src="model-session.js"></script>
+  <script src="model-game.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="modal">
+    <div class="content-box">
+      <h3>Welcome!</h3>
+      <div>
+        <input placeholder="Email" id="email">
+        <input placeholder="Password" id="password">
+      </div>
+      <button id="auth">Log In</button>
+    </div>
+  </div>
+  <header>
+    <h1>TIC TAC TOE</h1>
+  </header>
+  <section>
+    <div class="board" id="board">
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+      <div><span></span></div>
+    </div>
+  </section>
+  <section>
+    <div>
+      <input id="game-id">
+      <button id="load-game">Load Past Game</button>
+    </div>
+    <div>
+      <h2 class="messages" id="messages"></h2>
+      <button id="new-game">Play again!</button>
+    </div>
+  </section>
+</body>
+</html>
